@@ -15,9 +15,7 @@ header.container h3 {
 }
 
 .front-page .jumbotron {
-    background-image: url('../img/agility-small.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: url('../img/agility-small.jpg') no-repeat center center;
     border-top: 3px solid #334578;
     color: #fff;
 }
