@@ -1,0 +1,64 @@
+header.container {
+    text-align: center;
+}
+
+header.container h1 {
+    color: #334578;
+    font-size: 64px;
+    margin-bottom: 0;
+    text-shadow: 3px 3px 3px #888;
+}
+
+header.container h3 {
+    margin-top: 0;
+    color: #888;
+}
+
+.front-page .jumbotron {
+    background-image: url('../img/agility-small.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-top: 3px solid #334578;
+    color: #fff;
+}
+
+.front-page .jumbotron h2 {
+    text-shadow: 3px 3px 3px #001245;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    header.container {
+        text-align: right;
+    }
+
+    header.container h1 {
+        margin-top: 36px
+    }
+
+    .logo {
+        float: left;
+    }
+
+    .front-page .jumbotron {
+        background-image: url('../img/agiliity-medium.jpg');
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .front-page .jumbotron {
+        background-image: url('../img/agility-large.jpg');
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        width: 1024px;
+    }
+
+    .front-page .jumbotron {
+        background-size: cover;
+    }
+}
